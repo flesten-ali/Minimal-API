@@ -15,7 +15,6 @@ public static class JwtAuthenticationExtensions
                 { 
                          options.TokenValidationParameters = new()
                          {
-
                              ValidateIssuer = true,
                              ValidIssuer = jwtConfig.Issuer,
                              ValidateAudience = true,

@@ -34,7 +34,6 @@ using (var scope = app.Services.CreateScope())
     UserSeeder.SeedUsers(context);
 }
 
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

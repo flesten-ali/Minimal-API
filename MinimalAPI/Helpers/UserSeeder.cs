@@ -16,7 +16,6 @@ public static class UserSeeder
                     LastName = "nour",
                     FirstName = "Nour",
                     Password = "123"
-
                 }
                 , new User
                 {

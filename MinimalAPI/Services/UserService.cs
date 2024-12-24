@@ -23,4 +23,3 @@ public class UserService : IUser
         return await _context.Users.FirstOrDefaultAsync(e => e.UserName == userName && e.Password == password);
     }
 }
-
